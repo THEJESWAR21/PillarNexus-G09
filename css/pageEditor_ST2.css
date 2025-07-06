@@ -1,0 +1,67 @@
+body {
+  background-color: #fefefe;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+.editor-container {
+  max-width: 900px;
+  margin: 80px auto;
+  padding: 40px;
+  text-align: center;
+  background: #ffffff;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  border-radius: 12px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #2f4b7c;
+  margin-bottom: 10px;
+}
+
+.role {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+section {
+  margin-bottom: 50px;
+  text-align: left;
+}
+
+section h2 {
+  color: #2f4b7c;
+  font-size: 1.6rem;
+  border-bottom: 2px solid #e6e6e6;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+}
+
+section h3 {
+  color: #444;
+  font-size: 1.2rem;
+  margin-top: 25px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+a {
+  color: #003f5c;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #ffcc00;
+}
+
+code {
+  background: #f4f4f4;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: monospace;
+  color: #000;
+}
