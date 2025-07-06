@@ -1,0 +1,131 @@
+/* TABLE PAGE STYLING */
+
+.table-page {
+  padding: 140px 20px 60px;
+  text-align: center;
+  padding-top: 120px;
+}
+
+.table-page h1 {
+  font-size: 2.5rem;
+  color: #2f4b7c;
+  margin-bottom: 10px;
+}
+
+.table-page .subtitle {
+  font-size: 1.1rem;
+  color: #444;
+  margin-bottom: 40px;
+}
+
+/* Table Style */
+.infra-table {
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  border-collapse: collapse;
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.1);
+  font-size: 1rem;
+  overflow-x: auto;
+}
+
+.infra-table th,
+.infra-table td {
+  padding: 18px 14px;
+  border: 1px solid #ccc;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.infra-table thead {
+  background-color: #2f4b7c;
+  color: white;
+}
+
+.infra-table thead img.logo {
+  width: 60px;
+  height: auto;
+}
+
+.infra-table thead img.thumb {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Zebra Striping */
+.infra-table tbody tr:nth-child(even) {
+  background-color: #f0f4fa;
+}
+
+.infra-table tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+/* Hover Effect */
+.infra-table tbody tr:hover {
+  background-color: #dfeeff;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+/* Links & Icons */
+.infra-table td a {
+  color: #2f4b7c;
+  text-decoration: underline;
+}
+
+.infra-table td a:hover {
+  color: #003f5c;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .infra-table {
+    font-size: 0.9rem;
+  }
+
+  .infra-table thead img.thumb {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+/* ========== FIXED DARK NAVBAR ========== */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  background-color: #111;
+  padding: 20px 0;
+  z-index: 1000;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 10px 18px;
+  border-radius: 6px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #ffcc00;
+  color: #000;
+} 
