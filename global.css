@@ -80,6 +80,10 @@ nav ul li a:hover {
   color: #003f5c;
 }
 
+.logo-image {
+  width: 50px; 
+  height: auto;
+}
 /* ========== Jumbotron / Banner ========== */
 
 .jumbotron {
